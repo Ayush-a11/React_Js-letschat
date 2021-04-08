@@ -1,0 +1,37 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+}
+.sidebar_search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 255, 149);
+    height: 39px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sidebar_search > input{
+    border: 0px;
+    margin: 10px;
+    border-radius: 30px;
+    height: 30px;
+    width: 100%;
+}
+.sidebar_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-right: 1px solid lightgray;
+}
+.sidebar_header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+.sidebar_chats{
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    overflow-y: auto;
+}
