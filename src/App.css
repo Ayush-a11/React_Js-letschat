@@ -1,7 +1,7 @@
 .app{
   display: grid;
   place-items: center;
-  background-color: rgb(0, 255, 149);
+  background-color: rgb(255, 255, 255);
   height: 100vh;
 }
 
