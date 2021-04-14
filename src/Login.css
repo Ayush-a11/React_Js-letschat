@@ -1,7 +1,10 @@
 .login{
+    background-image:url('https://i.pinimg.com/originals/82/45/7d/82457d0a071027df909b897c5136d683.jpg');
+    background-repeat: repeat;
+    background-position: center;
     color: rgb(135, 181, 221);
-    height: 100vh;
-    width:100vh;
+    height: 100%;
+    width:100%;
     display: grid;
     place-items: center;
 }

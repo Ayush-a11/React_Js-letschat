@@ -71,7 +71,7 @@ function Chat() {
                 </div>    
 
                 <div className="chat_headerRight">
-                    <IconButton>
+                    <IconButton >
                         <SearchOutlined/>
                     </IconButton>
                     <IconButton>

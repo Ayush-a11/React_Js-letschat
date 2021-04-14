@@ -2,7 +2,8 @@
     display: flex;
     padding: 20px;
     cursor: pointer;
-    border-bottom: 1px solid gainsboro;
+    border-bottom: 1px solid rgb(255, 0, 0);
+    color: red;
 }
 .sidebarchat:hover{
     background-color: #ebebeb;
@@ -14,7 +15,23 @@
 .sidebarchat_info{
     margin-left: 15px;
 }
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255); 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgb(34, 29, 29); 
+    border-radius: 50px;
+  }
+  
 a{
     text-decoration: none !important;
     color: black;
+}
+.Avt{
+    border-width: 3px;
+    border-color: red;
+    border-style: solid;
 }
